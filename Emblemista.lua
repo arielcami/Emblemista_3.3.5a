@@ -23,7 +23,7 @@ local function Do(K,Cod,PL,UN,EV)
         if K== 8 then B=Con A=Tri end   if K== 9 then B=Con A=Val end   if K==10 then B=Con A=Her end
         if K==11 then B=Val A=Tri end   if K==12 then B=Val A=Con end   if K==13 then B=Val A=Her end
         if K==14 then B=Her A=Tri end   if K==15 then B=Her A=Con end   if K==16 then B=Her A=Val end
-        if K==17 then B=Esc A=Tri end   if K==18 then B=Esc A=Con end   if K==19 then B=Esc A=Val end
+        -->>if K==17 then B=Esc A=Tri end   if K==18 then B=Esc A=Con end   if K==19 then B=Esc A=Val end
         -->>if K==20 then B=Tri A=Esc end   if K==21 then B=Con A=Esc end   if K==22 then B=Val A=Esc end   
         -->>if K==23 then B=Her A=Esc end   if K==24 then B=Esc A=Her end    
 
